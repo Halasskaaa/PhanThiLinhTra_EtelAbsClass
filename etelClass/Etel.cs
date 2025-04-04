@@ -32,9 +32,10 @@ namespace etelClass
 			IsItDairyFree = false;
 		}
 
-		public void IsDairyFree()
+		public void DairyFree()
 		{
-			IsItDairyFree = true; 
+			if (IsItDairyFree == false) Console.WriteLine("It's not dairy free.");
+			else Console.WriteLine("It's dairy free.");
 		}
 		public abstract double CountCalories();
 	}

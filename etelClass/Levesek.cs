@@ -8,7 +8,7 @@ namespace etelClass
 {
 	internal class Levesek : Etel
 	{
-		public Levesek(double caloriesPerDkg, double weight, string name) : base(caloriesPerDkg, weight, name)
+		public Levesek(double caloriesPerDkg, double weight, string name, bool IsItDairyFree) : base(caloriesPerDkg, weight, name, IsItDairyFree)
 		{
 		}
 

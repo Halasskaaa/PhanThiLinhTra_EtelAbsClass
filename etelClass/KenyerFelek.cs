@@ -8,7 +8,7 @@ namespace etelClass
 {
 	internal class KenyerFelek : Etel
 	{
-		public KenyerFelek(double caloriesPerDkg, double weight, string name) : base(caloriesPerDkg, weight, name)
+		public KenyerFelek(double caloriesPerDkg, double weight, string name, bool IsItDairyFree) : base(caloriesPerDkg, weight, name, IsItDairyFree)
 		{
 		}
 
