@@ -31,8 +31,23 @@ namespace etelClass
 				}
 				return osszKal;
 			}
-			
 
-		}
+			static void IsItDairy()
+			{
+				List<string> dairyFree = new List<string>();
+				foreach (var item in etterem) 
+				{
+					if (item.IsItDairyFree == false)
+					{
+						dairyFree.Add(item)
+					}
+				}
+				Console.WriteLine(dairyFree);
+			}
+
+		SumCalories();
+		IsItDairy();
+
+	}
     }
 }
